@@ -17,7 +17,7 @@ class _LoadingState extends State<Loading> {
   String humidity = 'Loading';
   String windSpeed = 'Loading';
   String icon = 'Loading';
-  String city_value = 'Balıkesir';
+  String city_value = 'Ankara';
 
   @override
   void initState() {
@@ -44,8 +44,7 @@ class _LoadingState extends State<Loading> {
         'icon' : icon,
         'city_value' : city_value,
       }
-    );
-    
+    );  
   }
 
   @override
@@ -57,7 +56,7 @@ class _LoadingState extends State<Loading> {
       }
     }
     catch(e){
-      city_value = 'Balıkesir';
+      city_value = 'Ankara';
     }
     
     
